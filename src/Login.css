@@ -1,0 +1,95 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.925)), to(rgb(43, 62, 188)));
+    /* background:lightcoral; */
+    cursor: pointer;
+}
+.login-container{
+    background-color: rgba(255, 255, 255, 0.658);
+    padding: 30px;
+    border: 1px solid #ccccccc0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+.login-container:hover{
+    /* transform: matrix(1.2, 0, 0, 1.2, 0, 0); */
+    transition: all 0.5s ease-in-out;
+}
+.login-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.login-container h1:hover{  
+    transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+}
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-container form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.login-container form div label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.login-container form div input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+.login-container form div input:hover{
+    transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+    transition: all 0.5s;
+}
+.login-container form div button{
+    padding: 10px 20px;
+    background-color: #1b94e4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-container form div button:hover{
+    transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+    transition: all 0.5s;
+}
+.error {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    text-align: left;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+.username,
+.password {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.username input.error,
+.password input.error {
+    border-color: red;
+    background-color: #f2e5e5; 
+    box-shadow: 0 0 5px red;
+}
+.username input:hover,
+.password input:hover {
+    border-color: #1b94e4;
+    box-shadow: 0 0 5px #1b94e4;
+}

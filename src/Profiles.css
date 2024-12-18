@@ -1,0 +1,47 @@
+.profile {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    min-height: 100vh;
+  }
+  
+  .profile h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .profile table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .profile th,
+  .profile td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .profile th {
+    background-color: #60b6ef;
+    color: white;
+  }
+  
+  .profile td {
+    color: #931919;
+  }
+  
+  .profile tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .profile tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
